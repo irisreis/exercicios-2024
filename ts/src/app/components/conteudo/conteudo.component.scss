@@ -1,0 +1,193 @@
+.topo{
+    height: 45px;
+    gap: 0px;
+    background-color: #FDF1EB;
+    border-radius: 3px 3px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin-left: -13px;
+    border: 1px solid #ECECEC;    
+}
+.tituloBloco{
+    //font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 7px;
+    margin-left: 14px;
+    line-height: 25px;
+    text-align: left;
+    color: #4E4E4E;
+}
+#blocoResumo, .bloco2{
+    margin-left: 55px;
+    border-radius: 3px 3px 0px 0px;
+    margin-top: 40px;
+    border: 1px solid #ECECEC
+}
+.descricaoResumo{
+    margin-left: 3px;
+    margin-top: 12px;
+    display: inline;
+}
+.lerMais{
+    border: 0px;
+    margin-top: -41px;
+    margin-left: 4px;
+    background: transparent;
+    color: blue;
+}
+.tituloDiscussoes{
+    //font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    margin-top: 30px;
+    text-align: center;
+    color: #ED7839;
+}
+#posicaoImg{
+    display: flex;
+    justify-content: center;
+}
+.imgDiscussoes{
+    height: 90px;
+    margin-top: 10px;
+}
+#botaoCriar{
+    text-decoration: none;
+    width: 123px;
+    height: 30px; 
+    opacity: 0px;
+    margin-left: 460px;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 2px 2px 0px #0000003D;
+    //font-family: Quicksand;
+    display: block;
+    border-radius: 3px;
+}
+#txt2{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    display: inline;
+    color: #FFFFFF;
+}
+#txt1{
+    font-size: 23px;
+    margin-left: 9px;
+    display: inline;
+    font-weight: 900;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.txtDiscussoes{
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.25px;
+    text-align: center;
+    margin-top: 20px;
+}
+.discussao{
+    width: 990px;
+    height: 148px;
+    margin-top: 25px;
+    margin-left: 20px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 0px 0px 8px 0px #0000001F;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7
+}
+.tituloPergunta{
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #ED7839;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.nome1{
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    color: #5C5C5C;
+    margin-left: 15px;
+}
+.txtPergunta{
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+    margin-left: 15px;
+    color: #4D4D4D;
+}
+.btLike{
+    display: inline-flexbox;
+    position: absolute;
+    width: 23px;
+    height: 19px;
+    gap: 0px;
+    margin-top: -3px;
+    opacity: 0px;
+    background: #ED7839;
+    margin-left: 8px;
+    box-shadow: 0px 2px 2px 0px #0000003D;
+    border-radius: 3px;
+}
+.imgLile{
+    margin-left: 2px;
+    margin-top: -7px;
+    width: 17px;
+    height: 12px;
+}
+.pontos{
+    margin-top: -13px;
+    margin-left: 15px;
+    height: 15px;
+    width: 14px;
+}
+.like{
+    display: inline-flex;
+    position: absolute;
+    margin-top: -4px;
+    color: #757575;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 18.62px;
+    text-align: left;
+    margin-left: 41px;
+}
+.resposta{
+    display: inline-flex;
+    position: absolute;
+    margin-top: -4px;
+    color: #757575;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 18.62px;
+    text-align: left;
+    margin-left: 80px;
+}
+.bloco2{
+    border: 1px solid #ECECEC;
+    height: 680px;
+}
+.linha{
+    width: 90%;
+    border: 1px solid #E7E7E7;
+    margin-left: 50px;
+    z-index: -1;
+    margin-top: 40pz;
+}

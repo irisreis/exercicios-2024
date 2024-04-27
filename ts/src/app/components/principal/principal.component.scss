@@ -1,0 +1,185 @@
+#titulo{
+    //font-family: Roboto;
+    font-size: 19px;
+    font-weight: 900;
+    margin-left: 42px;
+    line-height: 25px;
+    margin-top: 20px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #ED7839;
+}
+#video{
+    width: 743px;
+    height: 409px;
+    gap: 0px;
+    margin-left: 42px;
+    border-radius: 3px;
+    margin-top: 12px;
+    opacity: 0px;
+}
+#capaVideo{
+    position: absolute;
+    margin-left: 44px;
+    width: 741px;
+    margin-top: -404px;
+    height: 402px;
+    gap: 0px;
+    border-radius: 3px 0px 0px 0px;
+    opacity: 0px;
+    background: #8D350680;
+}
+#imgCapa{
+    width: 70px;
+    height: 70px;
+    gap: 0px;
+    position: absolute;
+    margin-left: 26px;
+    opacity: 0px;
+    border-radius: 50%;
+}
+#posicao{
+    margin-top: 170px;
+    margin-left: 5px;
+}
+#posicao2{
+    margin-left: 126px;
+}
+#circulo{
+    border: 1px solid #ED7839;
+    border-radius: 50%;
+    width: 80px;
+    margin-left: 21px;
+    position: absolute;
+    height: 80px;
+    margin-top: -5px;
+}
+#tituloCapa{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-left: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #FFFFFF;
+}
+#txtCapa1{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+#txtCapa2{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+#blocoDetalhes {
+    border-radius: 3px 3px 0px 0px;
+    border: 1px solid #ECECEC; 
+}
+
+#posicaoBotao{
+    margin-top: 25px;
+}
+#botaoMargem{
+    margin-left: 30px;
+}
+.botao1{
+    //width: 120px;
+    height: 31px;
+    padding: 6px 12px 6px 12px;
+    gap: 5px;
+    border-radius: 4px;
+    opacity: 0px;
+    background-color: #ED7839;
+    color: #ffffff;
+    //font-family: Roboto;
+    font-size: 16px;
+    margin-left: 4px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: center;
+}
+#txt1{
+    //font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 11px;
+    line-height: 25px;
+    margin-left: 30px;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+}
+#blocoDetalhes{
+    margin-top: -5px;
+}
+#topoDetalhes{
+    //width: 242px;
+    height: 45px;
+    gap: 0px;
+    border-radius: 3px 3px 0px 0px;
+    border: 1px;
+    opacity: 0px;
+    border: 1px solid #ECECEC;
+    background-color: #FDF1EB;
+}
+#tituloDetalhes{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 12px;
+    line-height: 25px;
+    text-align: left;
+    color: #4E4E4E;
+}
+#descricaoDetalhes{
+    margin-top: 13px;
+    margin-left: 12px;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #5C5C5C;
+}
+#descricao2{
+    margin-left: 12px;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.4px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #ADA0A0;
+}
+#download{
+    margin-top: -4px;
+    margin-left: 1px;
+    width: 20px;
+    height: 20px;
+}
+#estrela{
+    width: 26px;
+    height: 19px;  
+    margin-top: -5px;
+}
+#doi{
+    width: 19px;
+    height: 19px;
+    margin-left: -2px;
+    margin-top: -5px;
+    gap: 0px;
+    opacity: 0px;
+}
