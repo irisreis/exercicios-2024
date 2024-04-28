@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ConteudoComponent implements OnInit {
   mostrarTextoCompleto: boolean= false;
   mostrarRespostas: boolean= false;
+  criarNovoTopico: boolean= false;
 
   constructor() {
    }
@@ -20,6 +21,9 @@ export class ConteudoComponent implements OnInit {
   }
   alternarResposta(): void{
     this.mostrarRespostas= !this.mostrarRespostas;
+  }
+  criarTopico(): void{
+    this.criarNovoTopico= !this.criarNovoTopico;
   }
 
 }
