@@ -9,6 +9,7 @@ export class ConteudoComponent implements OnInit {
   mostrarTextoCompleto: boolean= false;
   mostrarRespostas: boolean= false;
   criarNovoTopico: boolean= false;
+  enviarTopico: boolean= false;
 
   constructor() {
    }
@@ -24,6 +25,9 @@ export class ConteudoComponent implements OnInit {
   }
   criarTopico(): void{
     this.criarNovoTopico= !this.criarNovoTopico;
+  }
+  enviar(): void{
+    this.enviarTopico= !this.enviarTopico;
   }
 
 }
