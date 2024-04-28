@@ -134,8 +134,8 @@
                             <p class="resposta">1 resposta</p>
                         </div>
                     </ng-container>
-                    <ng-container *ngSwitchCase="true">
-
+                    <ng-container class="answered-topic" *ngSwitchCase="true">
+                        <div class="ops-topic-subject">
                         <div (click)="alternarResposta()" class="discussao">
                             <h2 class="tituloPergunta">
                                 Assunto da pergunta aparece aqui
@@ -191,6 +191,7 @@
                                 impacto de processo formativo processo.
                             </p>
                         </div>
+                            </div>
                     </ng-container>
                 </div>
             </div>

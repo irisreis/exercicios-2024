@@ -103,11 +103,11 @@
     margin-left: 20px;
     gap: 0px;
     border-radius: 4px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
+    border: 1px;
     opacity: 0px;
     box-shadow: 0px 0px 8px 0px #0000001F;
     background: #FFFFFF;
-    border: 1px solid #E7E7E7
+    border: 1px solid #E7E7E7;
 }
 .tituloPergunta{
     font-family: Quicksand;
@@ -202,16 +202,16 @@
     border: 1px solid #E7E7E7;
     background-color: #F8F8F8;
     height: 131px;
+    box-shadow: 0px 0px 8px 0px #0000001F;
     overflow: hidden;
-    border: 1px;
     margin-left: 20px;
     width: 990px;
 }
 .respostaDiscussao2{
     border: 1px solid #E7E7E7;
     background-color: #ffffff;
-    height: 131px;
-    border: 1px;
+    height: 164px;
+    box-shadow: 0px 0px 8px 0px #0000001F;
     overflow: hidden;
     margin-left: 20px;
     width: 990px;
