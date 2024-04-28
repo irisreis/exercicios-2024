@@ -116,8 +116,9 @@
                 </div>-->
                 <div [ngSwitch]="mostrarRespostas">
                     <ng-container *ngSwitchCase="false">
-                        <div (click)="alternarResposta()" class="discussao">
-                            <h2 class="tituloPergunta">
+                        <div class="answered-topic" (click)="alternarResposta()" class="discussao">
+                            <div class="ops-topic-subject">
+                                <h2 class="tituloPergunta">
                                 Assunto da pergunta aparece aqui
                             </h2>
                             <p class="nome1"><b>Carlos Henrique Santos</b></p>
@@ -131,11 +132,10 @@
                                 <img class="imgLile" src="../../../assets/paginas/conteudo/like.png" alt="">
                             </a>
                             <p class="like">1 like</p>
-                            <p class="resposta">1 resposta</p>
+                            <p class="resposta">1 resposta</p></div>
                         </div>
                     </ng-container>
-                    <ng-container class="answered-topic" *ngSwitchCase="true">
-                        <div class="ops-topic-subject">
+                    <ng-container *ngSwitchCase="true">
                         <div (click)="alternarResposta()" class="discussao">
                             <h2 class="tituloPergunta">
                                 Assunto da pergunta aparece aqui
@@ -191,7 +191,6 @@
                                 impacto de processo formativo processo.
                             </p>
                         </div>
-                            </div>
                     </ng-container>
                 </div>
             </div>
