@@ -68,21 +68,20 @@
     margin-left: 460px;
     background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
     box-shadow: 0px 2px 2px 0px #0000003D;
-    //font-family: Quicksand;
     display: block;
+    border: 0px;
     border-radius: 3px;
 }
 #txt2{
     font-size: 14px;
     font-weight: 600;
     line-height: 16px;
-    text-align: center;
     display: inline;
     color: #FFFFFF;
 }
 #txt1{
     font-size: 23px;
-    margin-left: 9px;
+    margin-left: 0px;
     display: inline;
     font-weight: 900;
     line-height: 16px;
@@ -99,7 +98,7 @@
 }
 .discussao{
     width: 990px;
-    height: 148px;
+    //height: 148px;
     margin-top: 25px;
     margin-left: 20px;
     gap: 0px;
@@ -189,7 +188,8 @@
 }
 .bloco2{
     border: 1px solid #ECECEC;
-    height: 680px;
+    //height: 680px;
+    height: auto;
 }
 .linha{
     width: 90%;
@@ -197,4 +197,33 @@
     margin-left: 50px;
     z-index: -1;
     margin-top: 40pz;
+}
+.respostaDiscussao1{
+    border: 1px solid #E7E7E7;
+    background-color: #F8F8F8;
+    height: 131px;
+    overflow: hidden;
+    border: 1px;
+    margin-left: 20px;
+    width: 990px;
+}
+.respostaDiscussao2{
+    border: 1px solid #E7E7E7;
+    background-color: #ffffff;
+    height: 131px;
+    border: 1px;
+    overflow: hidden;
+    margin-left: 20px;
+    width: 990px;
+}
+.nome2{
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+    line-height: 15px;
+    margin-top: 25px;
+    text-align: left;
+    color: #5C5C5C;
+    margin-left: 15px;
 }
