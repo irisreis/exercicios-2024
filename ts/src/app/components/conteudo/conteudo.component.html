@@ -49,8 +49,9 @@
                 <button (click)="criarTopico()" id="botaoCriar" class="btn-create-topic">
                     <p id="txt1">+ </p>
                     <p id="txt2">criar tópico</p>
-                </button> 
-                    </ng-container>      <ng-container *ngSwitchCase="true">
+                </button>
+                    </ng-container> 
+                        <ng-container *ngSwitchCase="true">
                         <div [ngSwitch]="enviarTopico">
                           <ng-container *ngSwitchCase="false">    
                             <div>
@@ -62,23 +63,25 @@
                               <p style="margin-top: 30px;" class="txtDiscussoes">
                                 Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!
                               </p> 
-                              <div>
-                                <p class="tituloFormulario">
-                                  Assunto
-                                </p>
-                                <input id="input1" placeholder="Defina um tópico sucinto para notificar os autores..." type="text">
-                                <p class="tituloFormulario">
-                                  Conteúdo
-                                </p>
-                                <input id="input2" type="text">
-                                <div id="faixaCinza"></div>
-                                <button (click)="enviar()" id="enviar">
-                                  <p id="textoBotaoEnviar">Enviar</p>
-                                </button>
+                              <div class="form">
+                                <form action="">
+                                    <p class="tituloFormulario">
+                                        Assunto
+                                      </p>
+                                      <input id="input1" class="subject" placeholder="Defina um tópico sucinto para notificar os autores..." type="text">
+                                      <p class="tituloFormulario">
+                                        Conteúdo
+                                      </p>
+                                      <input id="input2" type="text">
+                                      <div id="faixaCinza"></div>
+                                      <button (click)="enviar()" id="enviar">
+                                        <p id="textoBotaoEnviar">Enviar</p>
+                                      </button>
+                                </form>
                               </div>
                             </div>
                           </ng-container>
-                          <ng-container>
+                          <ng-container *ngSwitchCase="true">
                             <div class="topo">
                                 <p class="tituloBloco">
                                     Discussões
@@ -91,11 +94,11 @@
                     Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!
                 </p>
                 <a id="linkDescubraTrabalhos" href="">Descubra outros trabalhos!</a>
-                <button (click)="criarTopico()" id="botaoCriar2" class="btn-create-topic">
+                <button (click)="criarTopico()" id="botaoCriar2">
                     <p id="txt2">criar novo tópico</p>
                 </button> 
-
-                <div>
+                
+                <div id="efeitoBlur">
                     <div class="discussao">
                         <h2 class="tituloPergunta">
                             Assunto da pergunta aparece aqui
@@ -113,9 +116,6 @@
                       </ng-container>                
 
                 </div>
-
-
-
 
 
 
@@ -139,7 +139,9 @@
 
                 <div [ngSwitch]="mostrarRespostas">
                     <ng-container *ngSwitchCase="false">
-                        <div class="answered-topic" (click)="alternarResposta()" class="discussao">
+                        <div class="answered-topic">
+                            
+                        <div  (click)="alternarResposta()" class="discussao">
                             <div class="ops-topic-subject">
                                 <h2 class="tituloPergunta">
                                 Assunto da pergunta aparece aqui
@@ -156,6 +158,7 @@
                             </a>
                             <p class="like">1 like</p>
                             <p class="resposta">1 resposta</p></div>
+                        </div>
                         </div>
                     </ng-container>
                     <ng-container *ngSwitchCase="true">
@@ -176,7 +179,8 @@
                             <p class="like">4 likes</p>
                             <p class="resposta">4 respostas</p>
                         </div>
-
+                        <div class="comments-container">
+                            
                         <div class="respostaDiscussao1">
                             <p class="nome2"><b>Adriano da Silva</b></p>
                             <p class="txtPergunta">
@@ -213,6 +217,7 @@
                                 inscreve-se no campo da análise da dimensão e impacto de processo formativo situado
                                 impacto de processo formativo processo.
                             </p>
+                        </div>
                         </div>
                     </ng-container>
                 </div>
