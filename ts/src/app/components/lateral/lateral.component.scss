@@ -3,8 +3,6 @@
 }
 #topo{
     height: 68px;
-    gap: 0px;
-    opacity: 0px;
     background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
 }
 #titulo{
@@ -25,14 +23,11 @@
     width: 98%;
     display: block;
     height: 35px;
-    gap: 0px;
-    opacity: 0px;
     background-color: #FFFFFF;
     text-decoration: none;
 }
 .textoLink{
     color: #725C5C;
-    //font-family: Quicksand;
     font-size: 15px;
     font-weight: 500;
     position: absolute;
@@ -43,8 +38,6 @@
 }
 .linha{
     height: 2px;
-    gap: 0px;
-    opacity: 0px;
     background-color: #E7E7E7;
 }
 #selecionado{
@@ -53,7 +46,5 @@
 #selecionado2{
     background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
     width: 5px;
-    height: 35px;
-    gap: 0px;
-    opacity: 0px;    
+    height: 35px;  
 }

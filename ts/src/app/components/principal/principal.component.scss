@@ -1,5 +1,4 @@
 #titulo{
-    //font-family: Roboto;
     font-size: 19px;
     font-weight: 900;
     margin-left: 42px;
@@ -12,11 +11,9 @@
 #video{
     width: 743px;
     height: 409px;
-    gap: 0px;
     margin-left: 42px;
     border-radius: 3px;
     margin-top: 12px;
-    opacity: 0px;
 }
 #capaVideo{
     position: absolute;
@@ -24,18 +21,14 @@
     width: 741px;
     margin-top: -404px;
     height: 402px;
-    gap: 0px;
     border-radius: 3px 0px 0px 0px;
-    opacity: 0px;
     background: #8D350680;
 }
 #imgCapa{
     width: 70px;
     height: 70px;
-    gap: 0px;
     position: absolute;
     margin-left: 26px;
-    opacity: 0px;
     border-radius: 50%;
 }
 #posicao{
@@ -97,9 +90,7 @@
 .botao1{
     height: 31px;
     padding: 6px 12px 6px 12px;
-    gap: 5px;
     border-radius: 4px;
-    opacity: 0px;
     background-color: #ED7839;
     color: #ffffff;
     font-size: 16px;
@@ -109,7 +100,6 @@
     text-align: center;
 }
 #txt1{
-    //font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     margin-top: 11px;
@@ -122,12 +112,9 @@
     margin-top: -5px;
 }
 #topoDetalhes{
-    //width: 242px;
     height: 45px;
-    gap: 0px;
     border-radius: 3px 3px 0px 0px;
     border: 1px;
-    opacity: 0px;
     border: 1px solid #ECECEC;
     background-color: #FDF1EB;
 }
@@ -178,8 +165,6 @@
     height: 19px;
     margin-left: -2px;
     margin-top: -5px;
-    gap: 0px;
-    opacity: 0px;
 }
 @media screen and (max-width: 1344px){
     #botaoMargem{
