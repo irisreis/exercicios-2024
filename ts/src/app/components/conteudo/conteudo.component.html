@@ -44,12 +44,13 @@
                 <p class="txtDiscussoes">
                     Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus
                     <br>questionamentos ou sugestões para o autor!
-                </p>
-                <div class="linha"></div>
+                </p><br>
                 <button (click)="criarTopico()" id="botaoCriar" class="btn-create-topic">
                     <p id="txt1">+ </p>
                     <p id="txt2">criar tópico</p>
                 </button>
+                <div class="linha"></div>
+                <br>
                     </ng-container> 
                         <ng-container *ngSwitchCase="true">
                         <div [ngSwitch]="enviarTopico">
@@ -122,11 +123,7 @@
                           </ng-container>
                         </div>
                       </ng-container>                
-
                 </div>
-
-
-
                 <div class="discussao">
                     <h2 class="tituloPergunta">
                         Assunto da pergunta aparece aqui
@@ -167,6 +164,7 @@
                             <p class="like">1 like</p>
                             <p class="resposta">1 resposta</p></div>
                         </div>
+                        <br>
                         </div>
                     </ng-container>
                     <ng-container *ngSwitchCase="true">
@@ -190,6 +188,10 @@
                         <div class="comments-container">
                             
                         <div class="respostaDiscussao1">
+                            <div class="posicaoAutor">
+                                <p class="txtAutor">Autor</p>
+                                <img class="checkLaranja" src="../../../assets/paginas/conteudo/checkLaranja.png" alt="">
+                            </div>
                             <p class="nome2"><b>Adriano da Silva</b></p>
                             <p class="txtPergunta">
                                 Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto
@@ -210,6 +212,10 @@
                             </p>
                         </div>
                         <div class="respostaDiscussao1">
+                            <div class="posicaoAutor">
+                                <p class="txtAutor">Autor</p>
+                                <img class="checkLaranja" src="../../../assets/paginas/conteudo/checkLaranja.png" alt="">
+                            </div>
                             <p class="nome2"><b>Carlos Henrique Santos</b></p>
                             <p class="txtPergunta">
                                 Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da
@@ -218,6 +224,10 @@
                             </p>
                         </div>
                         <div class="respostaDiscussao1">
+                            <div class="posicaoAutor">
+                                <p class="txtAutor">Autor</p>
+                                <img class="checkLaranja" src="../../../assets/paginas/conteudo/checkLaranja.png" alt="">
+                            </div>
                             <p class="nome2"><b>Ana Carolina</b></p>
                             <p class="txtPergunta">
                                 Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto
@@ -226,6 +236,7 @@
                                 impacto de processo formativo processo.
                             </p>
                         </div>
+                        <br>
                         </div>
                     </ng-container>
                 </div>
