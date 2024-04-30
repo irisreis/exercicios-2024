@@ -291,3 +291,35 @@
     opacity: 0px;
     background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
 }
+#mensagemFeedback{
+    background-color: #dddddd34;
+    position: absolute;
+    width: 990px;
+    height: 170px;
+    overflow: hidden;
+    margin-top: -165px;
+    margin-left: 20px;
+}
+#txtFeedback{
+    color: #707070;
+    font-family: Quicksand;
+    font-size: 16px;
+    width: 300px;
+    font-weight: 700;
+    line-height: 20px;
+}
+#posicaoFeedback{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 37%;
+}
+#linkFeedback{
+    color: #ED7839;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    margin-top: -12px;
+    line-height: 18.62px;
+    text-align: center;    
+}
