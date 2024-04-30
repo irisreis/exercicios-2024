@@ -302,15 +302,15 @@
 }
 #txtFeedback{
     color: #707070;
-    font-family: Quicksand;
+    //font-family: Quicksand;
     font-size: 16px;
     width: 300px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 20px;
 }
 #posicaoFeedback{
     position: absolute;
-    margin-top: 75px;
+    margin-top: 35px;
     margin-left: 37%;
 }
 #linkFeedback{
@@ -322,4 +322,10 @@
     margin-top: -12px;
     line-height: 18.62px;
     text-align: center;    
+}
+#checkCinza{
+    width: 41px;
+    margin-left: 118px;
+    margin-top: -10px;
+    height: 34px;
 }
